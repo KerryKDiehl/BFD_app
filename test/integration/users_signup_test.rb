@@ -21,6 +21,6 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
 							password: "password",
 							password_confirmation: "password"}
 		end
-		assert_template 'user/show'
+		assert_template 'users/show'
 	end
 end
